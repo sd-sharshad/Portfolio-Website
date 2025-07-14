@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Your Name | Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="sd-portfolio-style.css" />
+</head>
+<body>
+  <nav>
+    <div class="container">
+      <h1>Syed Sharshad</h1>
+      <ul>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#resume">Resume</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <header>
+    <h2>Python Full-stack Developer</h2>
+    <p>Creating elegant, responsive, and user-centric digital experiences.</p>
+  </header>
+
+  <section id="projects" class="container">
+    <h3>Projects</h3>
+    <div class="grid">
+      <div class="card">
+        <h4>Project One</h4>
+        <p>ATM Training Simulator is a Python console app that mimics basic banking tasks—deposit, 
+            withdrawal, and balance check. It’s built with modular design and smart error handling,
+             making it a great hands-on tool for learning core programming logic.</p>
+      </div>
+      <div class="card">
+        <h4>Project Two</h4>
+        <p>Portfolio Website – HTML, CSS, JavaScript Designed a personal portfolio showcasing projects,
+             resume download link, and contact form with form validation.</p> 
+      </div>
+    </div>
+  </section>
+
+  <section id="resume" class="container">
+    <h3>Resume</h3>
+    <a class="btn" href="SD-Resume_1.pdf" download>Download Resume</a>
+  </section>
+
+  <section id="contact" class="container">
+    <h3>Contact Me</h3>
+    <form id="contactForm">
+      <input type="text" name="name" placeholder="Full Name" required />
+      <input type="email" name="email" placeholder="Email Address" required />
+      <textarea name="message" placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+      <p id="formMessage"></p>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Syed Sharshad. All rights reserved.</p>
+  </footer>
+
+  <script src="sd-portfolio-script.js"></script>
+</body>
+</html>
